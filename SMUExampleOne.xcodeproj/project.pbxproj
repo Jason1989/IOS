@@ -13,6 +13,10 @@
 		4523764F213333F80093908C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4523764E213333F80093908C /* Assets.xcassets */; };
 		45237652213333F80093908C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45237650213333F80093908C /* LaunchScreen.storyboard */; };
 		45237655213333F80093908C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45237654213333F80093908C /* main.m */; };
+		4523765D213334370093908C /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4523765C213334370093908C /* ImageModel.m */; };
+		452376602134EE850093908C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4523765F2134EE850093908C /* TableViewController.m */; };
+		45237666213507D50093908C /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45237665213507D50093908C /* CollectionViewCell.m */; };
+		4523766C21359CAE0093908C /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4523766B21359CAE0093908C /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		45237651213333F80093908C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45237653213333F80093908C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45237654213333F80093908C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4523765B213334370093908C /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		4523765C213334370093908C /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		4523765E2134EE850093908C /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4523765F2134EE850093908C /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		45237664213507D50093908C /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		45237665213507D50093908C /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		4523766A21359CAE0093908C /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		4523766B21359CAE0093908C /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +73,20 @@
 				45237645213333F70093908C /* AppDelegate.h */,
 				45237646213333F70093908C /* AppDelegate.m */,
 				45237648213333F70093908C /* ViewController.h */,
+				45237664213507D50093908C /* CollectionViewCell.h */,
+				4523766A21359CAE0093908C /* CollectionViewController.h */,
+				4523766B21359CAE0093908C /* CollectionViewController.m */,
+				45237665213507D50093908C /* CollectionViewCell.m */,
+				4523765B213334370093908C /* ImageModel.h */,
+				4523765C213334370093908C /* ImageModel.m */,
 				45237649213333F70093908C /* ViewController.m */,
 				4523764B213333F70093908C /* Main.storyboard */,
 				4523764E213333F80093908C /* Assets.xcassets */,
 				45237650213333F80093908C /* LaunchScreen.storyboard */,
 				45237653213333F80093908C /* Info.plist */,
 				45237654213333F80093908C /* main.m */,
+				4523765E2134EE850093908C /* TableViewController.h */,
+				4523765F2134EE850093908C /* TableViewController.m */,
 			);
 			path = SMUExampleOne;
 			sourceTree = "<group>";
@@ -142,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4523764A213333F70093908C /* ViewController.m in Sources */,
+				4523766C21359CAE0093908C /* CollectionViewController.m in Sources */,
 				45237655213333F80093908C /* main.m in Sources */,
 				45237647213333F70093908C /* AppDelegate.m in Sources */,
+				452376602134EE850093908C /* TableViewController.m in Sources */,
+				4523765D213334370093908C /* ImageModel.m in Sources */,
+				45237666213507D50093908C /* CollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
